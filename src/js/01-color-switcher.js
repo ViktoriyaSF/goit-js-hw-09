@@ -3,10 +3,11 @@ function getRandomHexColor() {
 }
 const startBtn = document.querySelector('button[data-start]');
 const stopBtn = document.querySelector('button[data-stop]');
+let colorChange = null;
 
 startBtn.addEventListener('click', onSlickStart);
 function onSlickStart() {
-  let colorChange = setInterval(() => {
+  colorChange = setInterval(() => {
     document.body.style.backgroundColor = getRandomHexColor();
   }, 1000);
   // console.log(colorChange);
