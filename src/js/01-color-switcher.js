@@ -6,7 +6,7 @@ const stopBtn = document.querySelector('button[data-stop]');
 
 startBtn.addEventListener('click', onSlickStart);
 function onSlickStart() {
-  colorChange = setInterval(() => {
+  let colorChange = setInterval(() => {
     document.body.style.backgroundColor = getRandomHexColor();
   }, 1000);
   // console.log(colorChange);
