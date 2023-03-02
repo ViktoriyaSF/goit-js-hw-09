@@ -16,3 +16,35 @@ img {
   display: block;
   max-width: 100%;
 }
+button {
+  font-size: large;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 40px;
+  background-color: rgba(4, 201, 40, 0.856);
+}
+.timer {
+  display: flex;
+
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(9, 198, 255, 0.986);
+}
+.label {
+  font-weight: bold;
+}
+
+#datetime-picker {
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: larger;
+  font-weight: bolder;
+}
